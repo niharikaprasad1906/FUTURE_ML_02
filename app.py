@@ -266,6 +266,4 @@ def create_ticket_classifier_interface():
 # --- Launch the Gradio Application ---
 if __name__ == "__main__":
     app_interface = create_ticket_classifier_interface()
-    # Launch the app. `share=True` creates a public link for easy sharing (temporary).
-    # For production deployment, consider hosting options like Hugging Face Spaces.
     app_interface.launch(share=True)
