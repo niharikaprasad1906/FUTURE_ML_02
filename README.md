@@ -1,7 +1,4 @@
-# AI-Powered Support Ticket Classifier
-import textwrap
 
-readme_content = textwrap.dedent('''
 # 🎫 AI-Powered Support Ticket Classifier
 
 ## Project Overview
@@ -15,3 +12,4 @@ The core of the project is a Gradio web application that provides an interactive
 - **Action Suggestion:** Provides intelligent action suggestions based on the predicted category and priority to guide support agents.
 - **Interactive Web Interface:** A user-friendly Gradio interface allows for easy testing and demonstration of the classifier.
 
+ Project live at https://huggingface.co/spaces/niharikaprasad/ticket-classifier
